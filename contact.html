@@ -1,0 +1,77 @@
+<!-- Language: HTML -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me
+    </title>
+</head>
+<body>
+<div class="contact-container">
+    <h2>Contact Me Email/Whatsapp 089527615779</h2>
+    <hr>
+    <!-- Form kontak sederhana -->
+    <form action="mailto:farzanrafanaufaldi@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" placeholder="Nama lengkap Anda" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email Anda" required>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="6" placeholder="Tulis pesan Anda" required></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+</div>
+
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 16px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</body>
+
+</html>
