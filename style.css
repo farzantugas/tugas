@@ -1,6 +1,6 @@
 /* mengatur desain header*/
 header{
-    background: #a5c2d1;
+    background: #62bdeb;
     color: #fafafa;
     padding: 15px 20px;
     font-size: 20px;
@@ -9,7 +9,7 @@ header{
 /* mengatur lebar backgorund*/
 section.main{
     flex: 80%;
-    background: #c2baba;
+    background: #62bdeb;
     main-height: 530px;
     padding: 15px 20px;
 }
@@ -17,7 +17,7 @@ section.main{
 footer{
     
     background: #ccc;
-    color: #555
+    color: #555;
     padding: 20px;
     text-align: center;
 }
@@ -46,7 +46,7 @@ footer{
 
 }
 .menu a:hover{
-    background: #77a7a3;
+    background: #c9dddb;
 }
 
 .namaku {
